@@ -1,0 +1,83 @@
+h1 {
+    color: rgb(230, 0, 255) ;
+    border:2px solid Tomato;
+    background-color:hsl(251, 16%, 74%);
+    opacity: 0.3;
+}   
+p {
+  text-align: center;
+  color: rgb(15, 221, 84);
+  border:2px solid Tomato;
+  background-color:hsl(251, 16%, 74%)
+  
+}
+body {
+  background-color: lightgray; 
+  background-image: url("pic.jpeg");
+  background-repeat: no-repeat; 
+  background-position: right top; 
+  background-size: 1400px; 
+  background-origin: content-box; 
+  background-clip: border-box; 
+  background-attachment: fixed; /
+}
+.para{
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-radius: 5px;
+}
+p.dotted {
+    border-style: dotted;
+    border-style: solid;
+  border-width: thick;
+}
+p.dashed {
+  border-style: dashed;
+  border-style: solid;
+  border-width: medium;
+}
+p.solid {
+  border-style: solid;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+p.double {
+  border-style: double;
+  height: 200px;
+  width: 50%;
+}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+.para{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+p.center {
+  text-align: center;
+  color: red;
+   margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.abc{
+    text-align: center;
+}
+.xyz{
+    color: blue;
+}
+h3, h4, p {
+  text-align: center;
+  color: rgb(226, 104, 43);
+}
